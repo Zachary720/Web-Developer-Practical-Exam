@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+}
+.cars-wrapper{
+    display: flex;
+    .cars{
+        flex:1;
+        img{
+            display: none;
+            margin: auto;
+        }
+        img.active{
+            display: block;
+        }
+    }
+}

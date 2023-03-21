@@ -1,0 +1,65 @@
+.error-404{
+	min-height: 600px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+	h1{
+		font-family: $lightFont !important;
+		color: $white !important;
+		font-size: 70px !important;
+		margin-bottom: 30px;
+	}
+
+	h4{
+		margin-bottom: 20px;
+
+	}
+	h5{
+		padding-bottom: 60px;
+		color: $white;
+
+	}
+	a{
+	background: $primary;
+    color: $white;
+	padding: 15px 30px;
+	border: none;
+	text-decoration: none;
+	margin-top: 60px;
+    &:hover {
+        background: $primary;
+		color: $white;
+    }
+	}
+
+	ul{
+		padding: 0;
+		margin: 0;
+		display: block;
+
+		li{
+			display: inline-block;
+
+			a{
+				padding: 10px 0 !important;
+    			margin-right: 25px;
+			}
+		}
+
+
+		.dropdown-toggle:after{
+			display: none;
+		}
+	}
+}
+
+.error-404.not-found {
+    padding: 0 $container-margin;
+	margin:0 auto;
+	background-color: #1C1C1C;
+	@include for-size(tablet-portrait-below){
+		padding: 0 $container-margin-mobile;  
+	}
+}

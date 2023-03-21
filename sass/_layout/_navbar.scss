@@ -1,0 +1,18 @@
+nav{
+    background-color: #ea6a5b;
+    padding: 11px 16px 10px;
+    span a{
+        color: #eeeeee;
+        margin-right: 39px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        font-weight: 700;
+    }
+    span.active a{
+        color: #333333;
+        &::before{
+            border-bottom: 1px solid #333333;
+        }
+    }
+
+}

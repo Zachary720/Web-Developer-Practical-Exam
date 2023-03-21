@@ -1,0 +1,93 @@
+@mixin for-size($size) {
+	@if $size == phone-only {
+		@media (max-width: 599px) {
+			@content;
+		}
+	}@else if $size == phone-m {
+		@media (max-width: 403px) {
+			@content;
+		}
+	}@else if $size == phone-s {
+		@media (max-width: 398px) {
+			@content;
+		}
+	}@else if $size == phone-xs {
+		@media (max-width: 364px) {
+			@content;
+		}
+	} @else if $size == tablet-portrait-below {
+		@media (max-width: 781px) {
+			@content;
+		}
+	} @else if $size == tablet-portrait-below-L {
+		@media (max-width: 843px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-below-XXXS {
+		@media (max-width: 877px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-below-XXS {
+		@media (max-width: 917px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-below-XS {
+		@media (max-width: 934px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-below-S {
+		@media (max-width: 986px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-below {
+		@media (max-width: 991px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-below-M {
+		@media (max-width: 1007px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-below-L {
+		@media (max-width: 1021px) {
+			@content;
+		}
+	} @else if $size == desktop-below {
+		@media (max-width: 1199px) {
+			@content;
+		}
+	} @else if $size == tablet-large {
+		@media (max-width: 1085px) {
+			@content;
+		}
+	} 
+	
+	@else if $size == big-desktop-below {
+		@media (max-width: 1799px) {
+			@content;
+		}
+	} @else if $size == phone-up {
+		@media (min-width: 600px) {
+			@content;
+		}
+	} @else if $size == tablet-portrait-up {
+		@media (min-width: 782px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-up {
+		@media (min-width: 900px) {
+			@content;
+		}
+	} @else if $size == tablet-landscape-up-XL {
+		@media (min-width: 992px) {
+			@content;
+		}
+	} @else if $size == desktop-up {
+		@media (min-width: 1200px) {
+			@content;
+		}
+	} @else if $size == big-desktop-up {
+		@media (min-width: 1800px) {
+			@content;
+		}
+	} 
+}

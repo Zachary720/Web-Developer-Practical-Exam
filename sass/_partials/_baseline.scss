@@ -1,0 +1,14 @@
+
+.container{
+	max-width: calc(100vw - #{$container-margin} - #{$container-margin});
+	margin: auto;
+}
+
+.wp-block-columns{
+	margin-bottom: 0 !important;
+}
+
+.page-container {
+    padding: 50px $container-margin;
+}
+

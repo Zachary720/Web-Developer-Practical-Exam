@@ -1,0 +1,54 @@
+/*--------------------
+Theme Name: ThinkBIT Solutions (Child Theme)
+Theme URI: http://underscores.me/thinkbit-child/
+Description: ThinkBIT Child Theme
+Author: ThinkBIT Solutions Phils. Inc.
+Author URI: http://thinkbitsolutions.com
+Template: thinkbit
+Version:1.0.0
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ThinkBIT Solutions is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+--------------------*/
+
+
+
+/* WARNING!! This project uses SASS, DO NOT EDIT the CSS file */
+/* WARNING!! This project uses SASS, DO NOT EDIT the CSS file */
+/* WARNING!! This project uses SASS, DO NOT EDIT the CSS file */
+
+
+// Here we import partials styling
+@import "_partials/reset";
+@import "_partials/mixins";
+@import "_partials/variables";
+@import "_partials/typography";
+@import "_partials/baseline";
+
+
+// Here we import components styling
+@import "_components/buttons";
+@import "_components/card";
+@import "_components/form";
+@import "_components/utilities";
+
+
+// Here we import our layout styling
+@import "_layout/navbar";
+@import "_layout/header";
+
+
+// Here we import custom pages styling
+@import "_pages/error";
+@import "_pages/index";
+
+
+
+
+/* WARNING!! This project uses SASS, DO NOT EDIT the CSS file */
+/* WARNING!! This project uses SASS, DO NOT EDIT the CSS file */
+/* WARNING!! This project uses SASS, DO NOT EDIT the CSS file */

@@ -1,0 +1,113 @@
+.form-control{
+	border: 1px solid $gray;
+	border-radius: 6px;
+	padding: 27px 50px;
+	font-size: 30px;
+	letter-spacing: 1.2px;
+	line-height: 46px;
+	color: $dark;
+
+	&:hover{
+		border-color: $dark;
+	}
+	&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		color: $gray !important;
+	}
+	&::-moz-placeholder { /* Firefox 19+ */
+		color: $gray !important;
+	}
+	&:-ms-input-placeholder { /* IE 10+ */
+		color: $gray !important;
+	}
+	&:-moz-placeholder { /* Firefox 18- */
+		color: $gray !important;
+	}
+}
+.nf-form-content .list-select-wrap .nf-field-element>div, 
+.nf-form-content input:not([type=button]), 
+.nf-form-content textarea{
+	background-color: $white !important;
+	color: $black !important;
+	padding-left: 24px !important;
+	transition: all ease-in-out .2s;
+	&:hover{
+		border-color: $primary !important;
+		padding-left: 14px  !important;
+	}
+	&:focus{
+		border-color: $primary !important;
+		padding-left: 14px  !important;
+
+	}
+	&:active{
+		border-color: $primary !important;
+		padding-left: 14px  !important;
+
+	}
+}
+
+#nf-form-1-cont{
+	width: 100%;
+    max-width: 748px;
+    margin: auto;
+
+	#nf-field-1-container{
+		margin-right: 20px;
+		@include for-size(tablet-landscape-below-S){
+			margin-right: 15px;
+		}
+	}
+
+	#nf-field-1-container,#nf-field-6-container{
+		display: inline-block;
+		max-width: 357px;
+    	width: 100%;
+		@include for-size(tablet-landscape-below-L){
+			max-width: 48.35%;
+		}
+		@include for-size(tablet-landscape-below-M){
+			max-width: 48.3%;
+		}
+		@include for-size(tablet-landscape-below-S){
+			max-width: 48.55%;
+		}
+		@include for-size(tablet-landscape-below-XS){
+			max-width: 48.51%;
+		}
+		@include for-size(tablet-landscape-below-XXS){
+			max-width: 48.41%;
+		}
+		@include for-size(tablet-portrait-below-L){
+			max-width: 100%;
+		}
+	}
+	#nf-field-4-wrap{
+		text-align: center;
+		#nf-field-4{
+			background-color: $primary;
+			color: $white;
+			text-transform: uppercase;
+			padding: 15px 30px;
+			letter-spacing: 1.6px;
+			line-height: 20px;
+		}
+	}
+	#nf-field-9-container{
+		#nf-field-9-wrap{
+			flex-wrap: nowrap;
+			.nf-field-label{
+				width: 25px;
+			}
+			.nf-field-element{
+				display: none;
+			}
+			.nf-field-description{
+				margin-top: -22px !important;
+			}
+		}
+	}
+}
+.nf-form-content label{
+	font-size: 15px !important;
+	font-family: $regularFont;
+}

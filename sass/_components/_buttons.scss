@@ -1,0 +1,73 @@
+// button sizes
+.btn{
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 19px;
+	padding: 27px 64px;
+	
+	&-lg{
+		font-size: 16px;
+		line-height: 24px;
+		letter-spacing: 0;
+	}
+}
+
+// button colors
+.btn{
+	&-primary{
+		background-color: $primary;
+		color: $white;
+
+		&:hover{
+			background-color: $primary-dark;
+		}
+	}
+
+	&-link{
+		background-color: $white;
+		border: 1px solid $gray;
+
+		&:hover{
+			background-color: $primary;
+		}
+	}
+}
+
+
+// custom
+.theme-btn a {
+    background: $primary;
+    max-width: 102px;
+    font-size: 12px;
+	&:hover {
+		background-color: $primary;
+	}
+	@include for-size(tablet-portrait-below){
+        max-width: 100%;
+	}
+}
+// custom
+
+button{
+    background: $primary;
+    color: $white;
+	padding: 15px 30px;
+	border: none;
+    &:hover {
+        background: $primary;
+    }
+}
+
+.cookies-btn{
+    background: $primary;
+    color: $white;
+	padding: 15px 30px;
+	border: none;
+	text-decoration: none !important;
+    &:hover {
+        background: $primary;
+    }
+	&:hover{
+		color: $white !important;
+	}
+}

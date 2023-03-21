@@ -1,0 +1,46 @@
+@font-face {
+    font-family: KumbhSans-Regular;
+    src: url('fonts/KumbhSans-Regular.ttf');
+}
+@font-face {
+    font-family: KumbhSans-Light;
+    src: url('fonts/KumbhSans-Light.ttf');
+}
+@font-face {
+    font-family: KumbhSans-Medium;
+    src: url('fonts/KumbhSans-Medium.ttf');
+}
+@font-face {
+    font-family: KumbhSans-SemiBold;
+    src: url('fonts/KumbhSans-SemiBold.ttf');
+}
+@font-face {
+    font-family: KumbhSans-Bold;
+    src: url('fonts/KumbhSans-Bold.ttf');
+}
+
+$regularFont: 'KumbhSans-Regular';
+$lightFont: 'KumbhSans-Light';
+$semiboldFont: 'KumbhSans-SemiBold';
+$mediumFont: 'KumbhSans-Medium';
+$boldFont: 'KumbhSans-Bold';
+
+/* heading */
+
+body {
+    font-family: $regularFont !important;
+    color: $dark;
+    font-size: 16px;
+    line-height: 1.6; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 0;
+}
+
+h1{
+	font-size: 38px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	color: #656565;
+}
